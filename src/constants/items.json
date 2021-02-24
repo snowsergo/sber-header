@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Task",
+    "src": "task"
+  },
+  {
+    "name": "Calendar",
+    "src": "calendar"
+  },
+  {
+    "name": "Staff",
+    "src": "staff"
+  },
+  {
+    "name": "Replacement",
+    "src": "replacement"
+  },
+  {
+    "name": "Link",
+    "src": "link"
+  },
+  {
+    "name": "Education",
+    "src": "education"
+  },
+  {
+    "name": "Game",
+    "src": "game"
+  },
+  {
+    "name": "Feedback",
+    "src": "feedback"
+  },
+  {
+    "name": "Checks",
+    "src": "checks"
+  }
+]

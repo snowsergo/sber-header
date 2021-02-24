@@ -1,0 +1,25 @@
+.header__coins-text {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.header__coins-text > span {
+  display: none;
+  margin-left: 8px;
+}
+
+@media screen and (max-width: 1223px) {
+  .header__coins-text {
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+  }
+
+  .header__coins-text > span {
+    display: block;
+  }
+}

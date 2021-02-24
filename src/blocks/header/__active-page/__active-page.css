@@ -1,0 +1,13 @@
+.header__active-page {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  display: none;
+}
+
+@media screen and (max-width: 510px) {
+  .header__active-page {
+    display: flex;
+  }
+}

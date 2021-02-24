@@ -1,0 +1,28 @@
+@import url(./__title-section/__title-section.css);
+@import url(./__title/__title.css);
+@import url(./__menu-icon/__menu-icon.css);
+@import url(./__menu-item/__menu-item.css);
+@import url(./__menu-text/__menu-text.css);
+@import url(./__link/__link.css);
+@import url(./__logo/__logo.css);
+@import url(./__nav/__nav.css);
+@import url(./__summary-section/__summary-section.css);
+@import url(./__coins/__coins.css);
+@import url(./__coins-text/__coins-text.css);
+@import url(./__summary-buttons/__summary-buttons.css);
+@import url(./__summary-button/__summary-button.css);
+@import url(./__label/__label.css);
+@import url(./__button-text/__button-text.css);
+@import url(./__summary-menu-button/__summary-menu-button.css);
+@import url(./__vertical-menu/__vertical-menu.css);
+@import url(./__active-page/__active-page.css);
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  background-color: #4267b2;
+  height: 56px;
+  font-family: Open Sans;
+}

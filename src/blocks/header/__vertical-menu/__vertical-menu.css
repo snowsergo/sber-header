@@ -1,0 +1,40 @@
+.header__vertical-menu {
+  padding-top: 8px;
+  padding-bottom: 17px;
+  position: absolute;
+  top: 63px;
+  left: -89px;
+  width: 176px;
+  background-color: #4267b2;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  display: none;
+}
+
+.header__vertical-menu_is-opened {
+  display: block;
+}
+
+.header__vertical-menu__appendix {
+  position: absolute;
+  top: -6px;
+  right: 14px;
+  width: 0;
+  height: 0;
+  border-left: 16px solid transparent;
+  border-right: 16px solid transparent;
+  border-bottom: 14px solid #4267b2;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 510px) {
+  .header__vertical-menu {
+    top: 56px;
+    left: -118px;
+  }
+
+  .header__vertical-menu__appendix {
+    top: -6px;
+    right: 14px;
+  }
+}

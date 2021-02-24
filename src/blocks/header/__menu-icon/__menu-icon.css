@@ -1,0 +1,9 @@
+.header__menu-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.header__menu-icon_vertical {
+  margin-left: 16px;
+  margin-right: 8px;
+}

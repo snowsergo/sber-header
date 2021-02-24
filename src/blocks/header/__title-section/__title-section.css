@@ -1,0 +1,10 @@
+.header__title-section {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: row;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+  padding-left: 19px;
+  padding-right: 19px;
+}

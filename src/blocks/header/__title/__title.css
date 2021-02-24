@@ -1,0 +1,14 @@
+.header__title {
+  margin: 0;
+  padding: 0;
+  margin-left: 7px;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+@media screen and (max-width: 1015px) {
+  .header__title {
+    display: none;
+  }
+}

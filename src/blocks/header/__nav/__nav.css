@@ -1,0 +1,13 @@
+.header__nav {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 510px) {
+  .header__nav {
+    display: flex;
+    flex-direction: row;
+    width: calc(100vw - 119px);
+    justify-content: space-between;
+  }
+}

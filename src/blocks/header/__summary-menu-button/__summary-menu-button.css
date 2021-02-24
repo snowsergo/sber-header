@@ -1,0 +1,22 @@
+.header__summary-menu-button {
+  background: transparent;
+  width: 56px;
+  margin-left: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  outline: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.header__summary-menu-button:hover {
+  background-color: #3c5fa5;
+}
+
+@media screen and (max-width: 1223px) {
+  .header__summary-menu-button {
+    display: block;
+  }
+}

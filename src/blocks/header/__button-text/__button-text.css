@@ -1,0 +1,16 @@
+.header__button-text {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 8px;
+  display: none;
+}
+
+@media screen and (max-width: 1223px) {
+  .header__button-text {
+    display: block;
+  }
+}

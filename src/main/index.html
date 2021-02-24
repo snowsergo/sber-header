@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Сергей Ступников" />
+    <meta name="description" content="Адаптивный динамический header" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test</title>
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <div class="header__title-section">
+          <img
+            class="header__logo"
+            src="<%=require('../images/logo.svg')%>"
+            alt="logo"
+          />
+          <h1 class="header__title">Libra</h1>
+        </div>
+
+        <nav class="header__nav"></nav>
+
+        <div class="header__summary-section">
+          <div class="header__summary-section__appendix"></div>
+          <div class="header__coins">
+            <img
+              class="header__menu-icon"
+              src="<%=require('../images/coins.svg')%>"
+              alt="coins"
+            />
+            <p class="header__coins-text">146 480 <span>монет</span></p>
+          </div>
+          <div class="header__summary-buttons">
+            <button class="header__summary-button">
+              <img
+                class="header__menu-icon"
+                src="<%=require('../images/bell+.svg')%>"
+                alt="bell"
+              />
+              <p class="header__button-text">Notification</p>
+            </button>
+
+            <button class="header__summary-button">
+              <img
+                class="header__menu-icon"
+                src="<%=require('../images/person.svg')%>"
+                alt="person"
+              />
+              <p class="header__button-text">Profile</p>
+            </button>
+
+            <button class="header__summary-button">
+              <img
+                class="header__menu-icon"
+                src="<%=require('../images/logout.svg')%>"
+                alt="logout"
+              />
+              <p class="header__button-text">Log out</p>
+            </button>
+          </div>
+        </div>
+
+        <button class="header__summary-menu-button">
+          <img
+            class="header__menu-icon"
+            src="<%=require('../images/person+.svg')%>"
+            alt="menu"
+          />
+        </button>
+      </header>
+
+      <main></main>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>
